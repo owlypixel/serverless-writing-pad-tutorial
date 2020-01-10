@@ -1,0 +1,21 @@
+{
+  "name": "writingpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.18.17",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gatsby": "gatsby"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
