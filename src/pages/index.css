@@ -38,13 +38,13 @@ textarea {
   width: 100%;
   display: block;
 }
-form {
+form.note-form {
   margin: 2rem auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
-button[type="submit"] {
+.save-button, .login-btn {
   background-color: #512da8;
   border: 0;
   border-radius: 3px;
@@ -58,6 +58,11 @@ button[type="submit"] {
   text-align: center;
   text-transform: uppercase;
   margin-left: 20px;
+}
+.login-btn{
+  margin: 0 auto;
+  display: block;
+  background-color: #663399;
 }
 button[type="submit"]:hover,button[type="submit"]:focus {
   background-color: #7e56e0;

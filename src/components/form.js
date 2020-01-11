@@ -15,7 +15,7 @@ const Form = ({reloadNotes}) => {
   } 
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="note-form" onSubmit={handleSubmit}>
       <label htmlFor="textarea">Add notes
         <textarea
           id="textarea"
@@ -23,7 +23,7 @@ const Form = ({reloadNotes}) => {
           onChange={event => setText(event.target.value)}
         ></textarea>
       </label>
-      <button type="submit">Save note</button>
+      <button className="save-button" type="submit">Save note</button>
     </form>
   );
 };
