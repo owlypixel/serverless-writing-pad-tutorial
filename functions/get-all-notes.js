@@ -1,4 +1,4 @@
-const sendQuery = require("../functions/helpers/send-query");
+const sendQuery = require("./helpers/send-query");
 
 const GET_ALL_NOTES = `
   query {
